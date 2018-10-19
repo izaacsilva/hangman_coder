@@ -50,6 +50,7 @@ create table Questao(
 create table Jogador (
   jogador_id integer not null auto_increment
 , login varchar(30) not null
+, senha varchar(15)
 , avatar_path varchar(100)
 , primary key (jogador_id)
 );
