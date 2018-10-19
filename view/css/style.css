@@ -1,0 +1,478 @@
+/************** Elementos comuns **************/
+
+html, body {
+    margin:0;
+    padding:0;
+}
+
+body {
+    background:#D7DBE6;
+}
+
+article, aside, section, header, footer, nav {
+    display:block;                
+}
+
+main {
+    width: 960px;
+    height: auto;
+    margin: 0 auto;
+    box-shadow: 0 0 10px;
+    background: #A8B1D2;
+}
+
+header {
+    margin-top: 40px;
+    width: 960px;
+    height: 130px;
+    background-color: #9092AB;
+}
+
+/*header img{
+    position: relative;
+    padding: .5em;     
+    float: left; 
+    margin-right: 10em;
+}
+*/
+header p{
+    font-family: 'Bangers', cursive;
+    font-size: 4em;
+    align-content: center;
+    display: inline-block;
+    margin: 30px 293px;
+    color: #FFF
+}
+
+
+nav {
+    width: 960px;
+    height: 50px;
+    background-color: #9092AB;                    
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    background-color: #7285C1;   
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline;     
+    margin-left: 5em;
+}
+
+nav ul li a{
+    display: inline-block;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-family: 'Bangers', cursive;
+    font-size: 1.75em;
+    color: #FFF;
+}
+
+footer {
+    height: 60px;
+    background-color: #7285C1;
+    clear: both;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+footer p{
+    font-family: 'Bangers', cursive;
+    font-size: 1.75em;
+    color: #fff;
+    display: inline;
+    padding-left: 11em;
+    position: absolute;
+    margin-top: 15px; 
+    margin-bottom: 15px;     
+}
+
+/************** Classes: login.html **************/
+
+input::placeholder{
+    padding-left: 10px;
+    font-size: 1em;    
+}
+
+.login{
+    position: relative;
+    margin-left: 20px;
+    background-color: #D7DBE6;
+    width: 300px;    
+    margin-bottom: 1em;    
+    font-family: 'Bangers', cursive;
+    font-size: 1.0em;
+    height: 16em;
+    box-shadow: 0 0 10px;
+    border-radius: 20px;    
+    float: left; 
+}
+
+.login h1{
+    text-align: center;
+    margin-bottom: 1.0em;
+}
+
+.login form{
+    padding-left: 20px;    
+}
+
+.login form input{
+    height: 2.0em;
+    border-radius: 10px;
+    width: 90%;
+    display: flex;    
+    font-family: 'Special Elite', cursive;
+    margin-bottom: 5px;
+}
+
+.login form #entrar{
+    margin-left: 0px;
+    background-color: #FEFEFF;
+    height: 2em;
+    width: 7em;
+    border-radius: 5px;  
+    padding-left: 18px;
+    color: #000;
+    font-family: 'Special Elite', cursive;
+    margin-bottom: 20px;
+}
+
+.comojogar{ 
+    position: relative;
+    margin-left: 20px;
+    background-color: #D7DBE6;
+    width: 600px;    
+    margin-bottom: 1em;    
+    font-family: 'Bangers', cursive;
+    font-size: 1.0em;
+    height: 41em;
+    box-shadow: 0 0 10px;
+    border-radius: 20px;    
+    float: right; 
+    margin-right: 20px;
+}
+
+.comojogar h1{
+    text-align: center;
+    margin-bottom: 1.0em;
+}
+
+.comojogar p{
+    font-size: 0.95em;
+    margin: 2px 10px;
+    text-align: justify;
+    font-family: 'Special Elite', cursive;
+    margin: 10px 20px;
+}
+
+.comojogar ul li{
+    margin: 2px 10px;
+    text-align: justify;
+    font-family: 'Special Elite', cursive;
+}
+
+
+.cadastro{     
+    position: relative;
+    margin-left: 20px;
+    background-color: #D7DBE6;
+    width: 300px;    
+    margin-bottom: 1em;    
+    font-family: 'Bangers', cursive;
+    font-size: 1.0em;
+    height: 24em;
+    box-shadow: 0 0 10px;
+    border-radius: 20px;    
+    float: left;      
+    clear: inherit;
+}
+
+.cadastro form{
+    padding-left: 20px;    
+}
+
+.cadastro h1{
+    text-align: center;
+    margin-bottom: 1.0em;
+}
+
+.cadastro form input{
+    height: 2.0em;
+    border-radius: 10px;
+    width: 90%;
+    display: flex;    
+    font-family: 'Special Elite', cursive;
+    margin-bottom: 5px;
+}
+
+.cadastro form #cadastrar{
+    margin-left: 0px;
+    background-color: #FEFEFF;
+    height: 2em;
+    width: 9em;
+    border-radius: 5px;  
+    padding-left: 18px;
+    color: #000;
+    font-family: 'Special Elite', cursive;
+    margin-bottom: 20px;
+}
+
+/************** Classes: regras.html **************/
+
+.regras {
+    
+    margin: 10px;
+    float: left;
+    background-image: url(imagens/old-paper-642132_1920.jpg);
+    padding: 2em 2em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Special Elite', cursive;
+    font-size: 1.2em;
+    box-shadow: 0 0 10px;
+}
+
+.regras h1{
+     text-align: center;
+}
+
+.regras p{
+    text-align: justify;
+}
+
+/************** Classes: ranking.html **************/
+
+.rank{
+    width: 55%;
+    display: inline-block;    
+    text-decoration: none;
+    font-family: 'Bangers', cursive;
+    font-size: 1.75em;
+    background-color: #D7DBE6;
+    clear: both;   
+    position: relative;
+    float:right;
+    margin-right: 230px;    
+    box-shadow: 0 0 15px;
+    border-radius: 100px; 
+}
+
+.rank p{
+    color: #000;
+    text-align: center;
+    margin-top: 10px;    
+}    
+
+.linguagemC{
+    background-color: #D7DBE6;
+    opacity: 30%;    
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-top: 1em;
+    width: 300px;
+    float: left;  
+    margin-bottom: 1em;
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 1.5em;
+    height: 450px;
+    box-shadow: 0 0 10px;
+}
+
+.linguagemC h1{
+    text-align: center;
+    font-family: 'Bangers', cursive;
+    font-size: 2em;   
+}
+
+.linguagemC ol{
+    padding-left: 60px;
+}    
+
+.linguagemJava{
+    margin-left: 10px;
+    margin-top: 1em;
+    background-color: #D7DBE6;
+    width: 300px;
+    float: left;  
+    margin-bottom: 1em;
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 1.5em;
+    
+    height: 450px;
+    box-shadow: 0 0 10px;
+    border-radius: 20px;
+}
+
+.linguagemJava h1{
+    text-align: center;
+    font-family: 'Bangers', cursive;
+    font-size: 2em;   
+}
+
+.linguagemJava ol{
+    padding-left: 60px;
+    color: #000;
+}
+
+.linguagemPython{
+    margin-right: 10px;
+    margin-top: 1em;
+    background-color: #D7DBE6;;
+    width: 310px;
+    float: right;  
+    margin-bottom: 1em;
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 1.5em;
+    height: 450px;
+    box-shadow: 0 0 10px;
+    border-radius: 20px;
+}
+
+.linguagemPython h1{
+    text-align: center;
+    font-family: 'Bangers', cursive;
+    font-size: 2em;   
+}
+
+.linguagemPython ol{
+    padding-left: 60px;
+}
+
+/************** Classes: jogar.html **************/
+
+.exercicioC{
+    background-color: #00FFFF;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-top: 1em;
+    width: 35%;
+    float: left;  
+    margin-bottom: 1em;
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 1.2em;
+    height: 450px;
+    box-shadow: 0 0 10px;
+}
+
+.exercicioC h1{
+    text-align: center;
+    font-family: 'Bangers', cursive;
+    font-size: 1em; 
+    margin-bottom: 2em;
+}
+
+.exercicioC ol{
+    padding-left: 10px;
+    float: left;
+    display: block;
+}  
+
+.enforcado{
+    margin-left: 1.2em;
+    margin-right: 10px;
+    margin-top: 1em;
+    background-color: #FFF;;
+    width: 310px;
+    float: left;  
+    margin-bottom: 1em;
+    font-size: 1.5em;
+    height: 450px;
+    box-shadow: 0 0 10px;
+    border-radius: 20px;  
+}
+
+.enforcado h1{
+    text-align: center;
+    font-family: 'Bangers', cursive;
+    font-size: 1.4em;
+    margin-bottom: 50px;
+}
+
+.enforcado img{
+    margin-left: 15px;
+    width: 80%;
+    padding: 20px;       
+}
+
+.jogador1{
+    background-color:burlywood ;
+    font-family: 'Bangers', cursive;
+    width: 220px;
+    height: 230px;
+    float: right;
+    display: block;
+    border-radius: 20px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+    margin-top: 1em;
+    box-shadow: 0 0 10px;   
+ }
+
+.jogador1 h1{
+    text-align: center;
+}
+
+.jogador1 span{
+    margin-left: 30px;
+    
+}
+
+.jogador1 p{
+    text-align: left;
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 1.2em;
+}
+
+.jogador1 #avatar{
+    float: right;
+    margin-right: 30px;
+    margin-bottom: 5px;
+}
+
+.jogador2{
+    background-color: bisque;
+    font-family: 'Bangers', cursive;
+    width: 220px;
+    float: right;   
+    height: 225px;
+    margin-right: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px;
+}
+
+.jogador2 span{
+    margin-left: 30px;
+    margin-bottom: 5px;
+    clear: both;    
+}
+
+
+.jogador2 h1{
+    text-align: center;
+}
+
+.jogador2 p{
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 1.2em;
+}
+
+
+.jogador2 #avatar{
+    float: right;
+    margin-right: 20px;
+    margin-bottom: 5px;
+}
+
+
+
+
+
+
+
