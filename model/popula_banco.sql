@@ -276,3 +276,18 @@ public class Pares
 }
 
 "', 'while', 4);
+
+
+insert into Alternativa (questao_id, alternativa_id, resposta, correta)
+values(1, 1, 'numeric', false);
+
+insert into Alternativa (questao_id, alternativa_id, resposta, correta)
+values(1, 2, 'boolean', true);
+
+insert into Alternativa (questao_id, alternativa_id, resposta, correta)
+values(1, 3, 'aritmetic', false);
+
+insert into Alternativa (questao_id, alternativa_id, resposta, correta)
+values(1, 4, 'bit', false);
+
+

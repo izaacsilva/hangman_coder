@@ -47,6 +47,15 @@ create table Questao(
 , foreign key (categoria_id, subcategoria_cd) references Subcategoria(categoria_id, subcategoria_cd)
 );
 
+create table Alternativa(
+  questao_id integer not null 
+, alternativa_id integer not null
+, resposta varchar(200)
+, correta boolean default false
+, primary key (questao_id, alternativa_id)
+, foreign key (questao_id) references Questao(questao_id)
+);
+
 create table Jogador (
   jogador_id integer not null auto_increment
 , login varchar(30) not null
