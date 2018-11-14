@@ -60,11 +60,13 @@ create table Jogador (
   jogador_id integer not null auto_increment
 , login varchar(30) not null
 , senha varchar(15)
+, nome varchar(50)
+, pontuacao long
 , avatar_path varchar(100)
 , primary key (jogador_id)
 );
 
-/*
+
 create table Sala (
   sala_id integer not null auto_increment
 , linguagem_id integer
@@ -81,6 +83,6 @@ create table Questao_Respondida (
 , foreign key (jogador_id) references Jogador(jogador_id)
 , foreign key (questao_id) references Questao(questao_id)
 );
-*/
+
 
 

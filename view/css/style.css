@@ -350,7 +350,7 @@ input::placeholder{
     border-radius: 20px;
     margin-left: 20px;
     margin-top: 1em;
-    width: 35%;
+    width: 45%;
     float: left;  
     margin-bottom: 1em;
     font-family: 'Cedarville Cursive', cursive;
@@ -377,11 +377,25 @@ input::placeholder{
     margin-right: 10px;
     margin-top: 1em;
     background-color: #FFF;;
-    width: 310px;
+    width: 45%;
     float: left;  
     margin-bottom: 1em;
     font-size: 1.5em;
     height: 450px;
+    box-shadow: 0 0 10px;
+    border-radius: 20px;  
+}
+
+.teclado{
+    margin-left: 1.2em;
+    margin-right: 10px;
+    margin-top: 1em;
+    background-color: #FFF;;
+    width: 90%;
+    float: left;  
+    margin-bottom: 1em;
+    font-size: 1.5em;
+    height: 200px;
     box-shadow: 0 0 10px;
     border-radius: 20px;  
 }
