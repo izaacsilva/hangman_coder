@@ -25,6 +25,21 @@ div#header{
     margin: 0 auto;    
 }
 
+.teclado{
+    display: block;
+    
+    
+}
+
+.teclado button{
+    display: block;
+    
+    
+}
+
+
+
+
 .logo{
     float: left;
     margin-top: 25px;

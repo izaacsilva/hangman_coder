@@ -1,100 +1,106 @@
 <!doctype html>
 <html>
+    
     <head>
         <meta charset="utf-8">
-        <link href="view/css/style.css" rel="stylesheet">
+        <link href="css/reset.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+        <script src="js/jquery-3.3.1.min.js"></script>
+
+        
         <link href="https://fonts.googleapis.com/css?family=Cedarville+Cursive" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Bangers" rel="stylesheet">
         <title>hangMan_Coder</title>  
         <link rel="shortcut icon" type="image/jpg" href="imagens/1-enforcado.jpg">
+        
     </head>
 
-    <body>
-        <main>
-            
-            <header>
-                <img src="view/imagens/1-enforcado.jpg" height="110" title="hangman" ><p>HangMan_Coder</p>
-            </header>            
-            
-            <nav>
-                <ul>
-                     <li><a href="index.html">Jogar</a></li>
-                    <li><a href="rank.html">Ranking</a></li>
-                    <li><a href="sobre.html">Sobre</a></li>
-                    <li><a href="aprendermais.html">Aprender Mais</a></li>
-                </ul>
-            </nav>
-            <br>
-            
-            <nav id="escolhaling">
-                <ul>
-                    <li><a href="jogar.html">C</a></li>
-                    <li><a href="regras.html">Java</a></li>
-                    <li><a href="ranking.html">Python</a></li>                    
-                </ul>      
-            </nav>
-            
-            <section class="exercicioC">
-                <h1> <img src="view/imagens/clogo.png" width="30"> </h1>
-                <pre>
-<b>Ponteiros</b>
-            
-#include (<input type="text" size="3">)
-#include (stdlib.h)
-           
-int main(void) {
-    int <input type="text" size="1">p;
-    p = <input type="text" size="2">(sizeof(<input type="text" size="1">));
-    <input type="text" size="1">p = 5;
-    printf("%d\n",_p);
-            
-    return 0;
-}
-                </pre>
-            </section>
-            
-            <section class="enforcado">
-               <h1>HangMAN</h1>
-               <img src="view/imagens/forca2.gif">               
-            </section>
+<body>
+    
+    <main>
 
-	    <section class="teclado">
-		<br/>
-		<button>A</button>
-		<button>B</button>
-		<button>C</button>
-		<button>D</button>
-		<button>E</button>
-		<button>F</button>
-		<button>G</button>
-		<button>H</button>
-		<button>I</button>
-		<button>J</button>
-		<button>K</button>
-		<button>L</button>
-		<button>M</button><br/>
-		<button>N</button>
-		<button>O</button>
-		<button>P</button>
-		<button>Q</button>
-		<button>R</button>
-		<button>S</button>
-		<button>T</button>
-		<button>U</button>
-		<button>V</button>
-		<button>W</button>
-		<button>X</button>
-		<button>Y</button>
-		<button>Z</button>
-            </section>
+        <header>
+            <p>HangMan_Coder</p>
+        </header>            
+
+        <nav>
+            <ul>
+                <li><a href="jogar.html">Jogar</a></li>
+                <li><a href="rank.html">Ranking</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="aprendermais.html">Aprender Mais</a></li>
+            </ul>
+        </nav>
+        
+        <br>
+        
+        <script src="js/script.js">inicio()</script>
+        
+        <section class="jogo"> 
+            <h1>isso é um teste</h1>
             
-             
+            <h5> aqui vai a exepressão para advinhar </h5>
             
+                
+            <div class="linhas">_ _ _ _</div>
+        
             
-            
-            <footer><p>Desenvolvido por Grupo Forca</p></footer>
-            
-        </main>
-        <script src="js/script.js" />
-    </body>
+        </section>
+        
+        
+         <section class="animacao">
+        
+        
+        
+        </section>
+        
+        
+
+        <section class="teclado">
+            <div class="wordbutton">
+                <button type="button" onclick="press()">A</button> 
+                <button type="button" onclick="press()">B</button>
+                <button type="button" onclick="press()">C</button>
+                <button type="button" onclick="press()">D</button>
+                <button type="button" onclick="press()">E</button>
+                <button type="button" onclick="press()">F</button>
+                <button type="button" onclick="press()">G</button>
+                <button type="button" onclick="press()">H</button>
+                <button type="button" onclick="press()">I</button>
+                <button type="button" onclick="press()">J</button>
+                <button type="button" onclick="press()">K</button>
+                <button type="button" onclick="press()">L</button>
+                <button type="button" onclick="press()">M</button>
+                <button type="button" onclick="press()">N</button>
+                <button type="button" onclick="press()">O</button>
+                <button type="button" onclick="press()">P</button>
+                <button type="button" onclick="press()">Q</button>
+                <button type="button" onclick="press()">R</button>
+                <button type="button" onclick="press()">S</button>
+                <button type="button" onclick="press()">T</button>
+                <button type="button" onclick="press()">U</button>
+                <button type="button" onclick="press()">V</button>
+                <button type="button" onclick="press()">W</button>
+                <button type="button" onclick="press()">X</button>
+                <button type="button" onclick="press()">Y</button>
+                <button type="button" onclick="press()">Z</button>
+                <button type="button" onclick="press()">0</button> 
+                <button type="button" onclick="press()">1</button>
+                <button type="button" onclick="press()">2</button>
+                <button type="button" onclick="press()">3</button>
+                <button type="button" onclick="press()">4</button>
+                <button type="button" onclick="press()">5</button>
+                <button type="button" onclick="press()">6</button>
+                <button type="button" onclick="press()">7</button>
+                <button type="button" onclick="press()">8</button>
+                <button type="button" onclick="press()">9</button>
+            </div>
+          
+        </section>
+        
+        <footer><p>Desenvolvido por Grupo Forca</p></footer>
+      
+    </main>
+</body>
+
 </html>
